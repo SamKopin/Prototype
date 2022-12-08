@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+      <!-- Start HTML tags and set language to English-->
+<html lang="en">
+      <!--head tags-->
+<head>
+    <title> Galaxy Casino </title>
+    <!--Add style section for page css-->
+    <style>
+body {
+            background-image: url("casinobg.jpg");
+            color: #c401d2;
+            text-align: center;
+            font-size: large;
+            font-family: Georgia, Times, 'Times New Roman', serif;
+        }
+ header{
+    padding: 3px;
+    background-color: #838383;
+    color: #400044;
+}
+footer {
+    padding: 2px;
+    background-color: #838383;
+    color: #400044;
+}
+
+    </style>
+    <script src="JavaScriptCode.js">
+        // call the JS page
+    </script>
+</head>
+      <!--body tags-->
+<body>
+     <!--dont foget your headers-->
+   <header>
+   <h1> Galaxy Casino</h1>
+   <p>Have fun and good luck!</p>
+</header> 
+
+    <!--navigation with breaks-->
+    <u><h2>Teleport to about me pages</h2></u>
+    <a href="index.html">Teleport to Home Page</a><br>
+    <a href="OBJ.html">Teleport to Board Objectives</a><br>
+    <a href="SIP.html">Teleport to the SIP</a><br>
+<!--nav for my projects-->
+    <u><h3>Teleport to project pages</h3></u>
+    <a href="UATspace.html">Teleport to UAT Space Page</a><br>
+    <a href="casino.html">Teleport to the Casino</a><br>
+    
+    <!--call JS functions-->
+    <script>
+        //Call the display
+        displayWelcome();
+        //leave spacing
+        document.write("<br><br>");
+        //display instructions
+        displayInstructions();
+        //more space
+        document.write("<br><br>");
+        //put title of game in header
+        document.write("<h2>Space Chance</h2>");
+        //more spacing
+        document.write("<br><br>");
+        //call game function
+        play();
+        //moreeee spacing
+        document.write("<br><br>");
+
+
+    </script>
+
+     <!--footer tag-->
+     <footer>
+        <p> Created by: Sam Kopin </p>
+        <a href="mailto:emmkopin@uat.edu">Click to contact me, email at emmkopin@uat.edu</a>
+    </footer>
+</body>
+</html>
